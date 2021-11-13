@@ -1,0 +1,16 @@
+.user-list__login {
+  position: relative;
+  display: block;
+  padding: 17px 21px;
+  padding-left: 49px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.user-list {
+  @media($desktop) {
+    display: flex;
+    justify-content: space-around;
+  }
+}

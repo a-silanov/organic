@@ -1,0 +1,36 @@
+.site-list a {
+  position: relative;
+  display: block;
+  padding: 12px 21px;
+  padding-bottom: 13px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+@media($tablet) {
+  .site-list {
+    width: 100%
+  }
+}
+
+@media($desktop) {
+  .site-list {
+    width: 700px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 15% 15% 15% 20% 15%;
+  }
+}
+
+.site-list a {
+  @media($desktop) {
+    font-size: 15px;
+    line-height: 20px;
+    border: none;
+  }
+}

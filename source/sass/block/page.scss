@@ -1,0 +1,16 @@
+.page {
+  height: 100%;
+  font-size: 18px;
+  font-family: "OpenSans", "Arial", sans-serif;
+  line-height: 27px;
+}
+
+.page__body {
+  min-height: 100%;
+  margin: 0;
+  background-color: white;
+  color: $asphalt;
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+}

@@ -1,0 +1,31 @@
+.about__wrapper {
+  display: grid;
+  gap: 10px;
+  margin: 0 auto;
+
+  @media ($desktop) {
+    margin: 10px auto;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.about__title {
+  text-align: center;
+  font-size: 22px;
+}
+
+.about__description--text {
+  margin: 0;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.about__video {
+  margin: 0 auto;
+
+  @media($desktop) {
+    order: -1;
+  }
+}
