@@ -18,38 +18,22 @@ navToggle.addEventListener('click', function() {
 $(function() {
   $('.reviews__slider').slick({
     dots: true,
+    arrows: true,
     infinite: true,
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 960,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
         breakpoint: 660,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
+          dots: false,
+          arrows: true
         }
       },
-      {
-        breakpoint: 320,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false
-        }
-      }
     ]
   });
     })
