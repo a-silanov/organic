@@ -2,7 +2,7 @@
   background-color: green;
   color: $asphalt;
 
-  @media($desktop) {
+  @media ($desktop) {
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -20,7 +20,7 @@
     width: 100px;
   }
 
-  @media ($desktop){
+  @media ($desktop) {
     height: 95px;
     width: 250px;
     padding-right: 10px;

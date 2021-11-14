@@ -9,7 +9,7 @@
 }
 
 .user-list {
-  @media($desktop) {
+  @media ($desktop) {
     display: flex;
     justify-content: space-around;
   }

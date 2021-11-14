@@ -25,7 +25,7 @@
 .about__video {
   margin: 0 auto;
 
-  @media($desktop) {
+  @media ($desktop) {
     order: -1;
   }
 }

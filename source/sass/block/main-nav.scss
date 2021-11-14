@@ -19,7 +19,7 @@
   padding: 0;
   margin: 0;
 
-  @media($tablet) {
+  @media ($tablet) {
     top: -76px;
   }
 }
@@ -48,7 +48,7 @@
   display: none;
 }
 
-@media($tablet) {
+@media ($tablet) {
   .main-nav__wrapper {
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@
   }
 }
 
-@media($desktop) {
+@media ($desktop) {
   .main-nav__wrapper {
     width: 960px;
     display: grid;
