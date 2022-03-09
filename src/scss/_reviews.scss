@@ -1,0 +1,35 @@
+.reviews {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 226px auto;
+}
+
+.prev__arrow {
+    position: relative;
+    top: 20% !important;
+    left: 20% !important;
+    transform: translate(-50%);
+}
+
+.next__arrow {
+    position: relative;
+    top: 20% !important;
+    right: 20% !important;
+    transform: translate(-50%);
+}
+
+.reviews__text--title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+.reviews__text--description {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.review__text {
+    padding-bottom: 30px;
+}

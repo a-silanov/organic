@@ -1,0 +1,10 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact__mail, .contact__phone {
+    display: flex;
+    align-items: center;
+}

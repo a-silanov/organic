@@ -1,0 +1,56 @@
+// Footer
+footer {
+    display: block;
+    background-color: $dark-green;
+    color: $white-text;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.footer-wrapper {
+    width: 67%;
+    margin: 0 auto;
+}
+
+.footer--title {
+    font-size: 3vh;
+    padding-top: 130px;
+}
+
+.footer--subtitle {
+    font-size: 2vh;
+    margin-top: 32px;
+    margin-bottom: 3px;
+}
+
+.footer--newsletter {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.form {
+    margin-bottom: 36px;
+}
+
+.subscribe {
+    width: 40%;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid $white-text;
+    background-color: $dark-green;
+    color: $white-text;
+}
+
+::placeholder {
+    color: $white-text;
+    padding-left: 10px;
+}
+
+.subscribe-button {
+    width: 15%;
+    border-radius: 6px;
+    color: $dark-green;
+    height: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+}

@@ -1,0 +1,30 @@
+.promo {
+  display: flex;
+  justify-content: center;
+  max-width: 1366px;
+  color: $white-text;
+}
+
+.promo__description {
+  position: absolute;
+  width: 40%;
+  z-index: 2;
+  top: 30vh;
+  text-align: center;
+  }
+  
+.promo__slogan {
+    margin: 0 auto;
+    color: $white-text;
+    text-align: center;
+    font-size: 10vh;
+    font-weight: bold;
+    line-height: 10vh;
+  }
+
+  .promo__intro {
+    margin-bottom: 3vh;
+    font-size: 2vh;
+  }
+ 
+  

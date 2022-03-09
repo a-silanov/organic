@@ -1,0 +1,46 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: $linear;
+    padding-top: 43%;
+    padding-bottom: 23%;
+    background-image: linear-gradient(270.34deg, rgba(231, 185, 93, 0.12) -0.9%, rgba(163, 139, 93, 0.12) 39.83%, rgba(0, 0, 0, 0.4) 80.71%), url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slide--two {
+  background-image: url('../img/background2.jpg');
+}
+
+.slide--three {
+  background-image: url('../img/background3.jpg');
+}
+
+.swiper-pagination-bullet-active {
+  border: 4px solid white;
+}
+
+.swiper-button-next, .swiper-button-prev {
+ top: 65% !important;
+}
+
+// Slider Reviews
+
+.swiper-slide__reviews {
+  padding: 0;
+  background-image: none;
+  background-color: transparent;
+  background-size: auto;
+}
+
+.swiper__reviews {
+  box-shadow: none;
+}
